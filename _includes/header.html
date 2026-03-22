@@ -1,0 +1,25 @@
+<header class="navbar" role="banner">
+  <div class="nav-inner">
+    <a href="{{ site.baseurl }}/" class="nav-logo-text" aria-label="Sanit'Energies - Accueil">
+      Sanit'<span>Energies</span>
+    </a>
+    <nav aria-label="Navigation principale">
+      <ul class="nav-links">
+        <li><a href="{{ site.baseurl }}/depannage-plomberie/" {% if page.url contains 'depannage' %}class="active"{% endif %}>Dépannage</a></li>
+        <li><a href="{{ site.baseurl }}/pompe-a-chaleur/" {% if page.url contains 'pompe' %}class="active"{% endif %}>Pompe à chaleur</a></li>
+        <li><a href="{{ site.baseurl }}/debouchage-canalisation/" {% if page.url contains 'debouchage' %}class="active"{% endif %}>Débouchage</a></li>
+        <li><a href="{{ site.baseurl }}/desembouage/" {% if page.url contains 'desembouage' %}class="active"{% endif %}>Désembouage</a></li>
+        <li><a href="{{ site.baseurl }}/energies-renouvelables/" {% if page.url contains 'energies' %}class="active"{% endif %}>ENR</a></li>
+        <li><a href="{{ site.baseurl }}/nos-realisations/" {% if page.url contains 'realisations' %}class="active"{% endif %}>Réalisations</a></li>
+        <li><a href="{{ site.baseurl }}/contact/" {% if page.url contains 'contact' %}class="active"{% endif %}>Contact</a></li>
+      </ul>
+    </nav>
+    <div class="nav-cta">
+      <span class="urgence-badge">24h/24 - 7j/7</span>
+      <a href="tel:0450553340" class="btn-tel">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.22 1.18 2 2 0 012.22 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.09a16 16 0 006 6l.86-.86a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+        04 50 55 33 40
+      </a>
+    </div>
+  </div>
+</header>
