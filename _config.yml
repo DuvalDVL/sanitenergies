@@ -1,0 +1,22 @@
+title: "Sanit'Energies - Plombier Chauffagiste Saint-Gervais"
+description: "Plombier chauffagiste a Saint-Gervais-les-Bains. Depannage 24h/24, pompe a chaleur, desembouage, debouchage. Certifie RGE. Intervention rapide sur Megeve, Chamonix, Passy."
+baseurl: ""
+url: "https://www.sanitenergies.com"
+locale: fr_FR
+
+contact:
+  tel_principal: "04 50 55 33 40"
+  tel_mobile: "06 61 17 89 62"
+  email: "contact@sanitenergies.com"
+  adresse: "193 Avenue de Chamonix, 74170 Saint-Gervais-les-Bains"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - README.md
+  - CLIENT.js
